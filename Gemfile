@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 # Use haml for html templates
 gem 'haml-rails'
+# Use bootstrap framework
+gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
