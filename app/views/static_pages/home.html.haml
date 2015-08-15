@@ -1,5 +1,7 @@
+- provide :title, "Home"
 %h1 MicroBlogger
 %p
   This is the home page for the
-  %a{href:"http://www.railstutorial.org"}Ruby on Rails Tutorial
-  sample application.
+  = succeed "." do
+    %a{href:"http://www.railstutorial.org"}Ruby on Rails Tutorial
+  sample application
