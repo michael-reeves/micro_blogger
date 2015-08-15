@@ -1,9 +1,11 @@
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionController::TestCase
+
   def setup
     @base_title = "MicroBlogger"
   end
+
   test "should get home" do
     get :home
     assert_response :success
@@ -27,4 +29,5 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
     assert_select "title", "Contact | #{@base_title}"
   end
+  
 end
