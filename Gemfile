@@ -36,7 +36,9 @@ gem 'puma'
 
 # create sample data for the app
 gem 'faker'
-
+# paginate users with will_paginate
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
